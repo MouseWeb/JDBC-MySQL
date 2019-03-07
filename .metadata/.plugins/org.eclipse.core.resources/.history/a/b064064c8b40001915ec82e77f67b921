@@ -1,0 +1,19 @@
+package application;
+
+import java.sql.Connection;
+import db.DB;
+
+public class Program {
+	
+	// Statement = serve para monta um sql e recuperar os dados do banco.
+	// ResultSet = Representa um (Objeto) contendo o resultado da consulta do banco de dados
+
+	public static void main(String[] args) {
+
+		Connection conn = DB.getConnection();
+
+		DB.closeConnection();
+
+	}
+
+}
