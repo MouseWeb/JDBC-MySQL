@@ -262,3 +262,6 @@ org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2019-03-17 21:22:05.501
 !MESSAGE Setup tasks were performed during startup updating 3 preferences. See 'C:\sts-bundle\sts-3.9.5.RELEASE\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-17 22:39:32.769
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
