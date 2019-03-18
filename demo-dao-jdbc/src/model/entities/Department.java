@@ -6,6 +6,14 @@ public class Department implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
+	// Entity class checklist: 
+	//		Attributes
+	//		Constructors
+	//		Getters/Setters
+	//		hashCode and equals 
+	//		toString 
+	//		implements Serializable 
+	
 	private Integer id;
 	private String name;
 	
