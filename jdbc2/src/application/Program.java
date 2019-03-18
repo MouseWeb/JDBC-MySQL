@@ -9,6 +9,8 @@ import db.DB;
 
 public class Program {
 	
+	
+	
 	// Statement = serve para monta um sql e recuperar os dados do banco.
 	// ResultSet = Representa um (Objeto) contendo o resultado da consulta do banco de dados.
 	//             - Observação: O objeto ResultSet contém os dados armazenados na forma de tabela.
