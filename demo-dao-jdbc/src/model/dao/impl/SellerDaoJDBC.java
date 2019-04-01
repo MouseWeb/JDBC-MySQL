@@ -90,6 +90,7 @@ public class SellerDaoJDBC implements SellerDao{
 		obj.setBaseSalary(rs.getDouble("BaseSalary"));
 		obj.setBirthDate(rs.getDate("BirthDate"));
 		obj.setDepartment(dep);
+		
 		return obj;
 
 	}
@@ -98,6 +99,7 @@ public class SellerDaoJDBC implements SellerDao{
 		Department dep = new Department();
 		dep.setId(rs.getInt("DepartmentId"));
 		dep.setName(rs.getString("DepName"));
+		
 		return dep;
 
 	}
