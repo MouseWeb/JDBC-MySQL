@@ -1,8 +1,0 @@
-package db;
-
-// contém os métodos staticos de serviço da conexão com banco de dados.
-public class DB {
-	
-	
-
-}

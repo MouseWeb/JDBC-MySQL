@@ -1,8 +1,0 @@
-package db;
-
-// contém os métodos staticos que conecta e desconecta a conexão.
-public class DB {
-	
-	
-
-}
